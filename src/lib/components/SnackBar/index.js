@@ -9,6 +9,7 @@ const Alert = React.forwardRef(function Alert(props, ref) {
 });
 
 const SnackbarProvider = ({ children }) => {
+    debugger;
     const [message, setMessage] = useState(null);
     const [open, setOpen] = useState(false);
     const [severity, setSeverity] = useState(null);

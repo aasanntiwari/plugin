@@ -1,11 +1,13 @@
 "use strict";
 
+require("core-js/modules/es.weak-map.js");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.useSnackbar = exports.SnackbarProvider = exports.SnackbarContext = void 0;
-require("core-js/modules/web.dom.iterable.js");
-require("core-js/modules/es6.regexp.to-string.js");
+require("core-js/modules/web.dom-collections.iterator.js");
+require("core-js/modules/es.regexp.to-string.js");
+require("core-js/modules/es.object.assign.js");
 var _react = _interopRequireWildcard(require("react"));
 var _Snackbar = _interopRequireDefault(require("@mui/material/Snackbar"));
 var _Alert = _interopRequireDefault(require("@mui/material/Alert"));
